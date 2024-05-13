@@ -25,7 +25,7 @@ int secuestro = 0;
 
 /* SERVO CONFIG */
 #include <Servo.h>
-Servo servoRight; Servo servoLeft;
+Servo servoRight; Servo servoLeft;; Servo servoCenter;
 
 /* INFRAROJOS INT */
 int infraRight = 2; int infraLeft = 3;
@@ -46,6 +46,9 @@ void setup() {
   /* SERVO */
   servoRight.attach(9);
   servoLeft.attach(8);
+  servoCenter.attach(6);
+  servoCenter.write(120);
+
 
   Serial.begin(9600);
 
