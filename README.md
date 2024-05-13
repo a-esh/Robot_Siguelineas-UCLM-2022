@@ -1,3 +1,10 @@
+## 🔴 Importante !
+Si se esta usando una placa BQ Zum deben instalarse los [drivers](https://github.com/a-esh/Robot_Siguelineas-UCLM-2022/tree/main/drivers) para el correcto funcionamiento de la placa.
+> Arduino IDE 2.3.2 
+> 1. Seleciona el COM de la placa
+> 2. **Tools > Board** seleciona `Arduino BT`
+> 3. **Tools > Processor** seleciona `ATmega328P`
+
 ## Descripción del Código para el Sigue Líneas Arduino
 
 Este código está diseñado para un robot sigue líneas que participa en un concurso de robótica. El robot utiliza una placa Arduino BQ y debe completar un circuito con los siguientes desafíos:
